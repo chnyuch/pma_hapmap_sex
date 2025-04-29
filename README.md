@@ -15,3 +15,8 @@ plot: hapmap_Fst.08.R
 Female and male comparison for 6 focal population
 script: hapmap_Fst.07.py
 plot: hapmap_Fst.09.R
+
+Whole genome analysis scripts
+SRR2fastq QC: wg_bash/qc_trim
+bwa mapping: wg_bash/bwa/mkdp
+markduplicate: wg_bash/gatk/
